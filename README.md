@@ -64,3 +64,73 @@ Ajouter des filtres avancés (par année, genre, etc.)
 Chi Thanh NGUYEN
 Étudiant en ingénierie de données
 📧 Contact : ncthanh.agro@gmail.com / Tel. (+33)7 52 62 97 03
+
+
+## 🇬🇧 README.md — English Version
+
+```markdown
+# 🎬 Project 3 – TMDB Analysis with Pandas and Tkinter
+
+## 📌 Goal
+
+This project is a graphical application built with **Tkinter** that performs **data analysis** on the `tmdb-movies.csv` file.  
+It uses the power of **Pandas** to process and analyze movie-related data.
+
+---
+
+## 🗃️ Dataset Used
+
+- 📁 CSV file:  
+  https://raw.githubusercontent.com/yinghaoz1/tmdb-movie-dataset-analysis/master/tmdb-movies.csv
+
+---
+
+## ⚙️ Features
+
+- 📂 Load a CSV file
+- 🗓️ Sort movies by release date (descending)
+- ⭐ Filter movies with a rating over 7.5
+- 💰 Find the highest and lowest revenue films
+- 🧮 Calculate the total revenue
+- 🏆 List the Top 10 most profitable films (revenue - budget)
+- 🎬 Find the most prolific director
+- 🎭 Identify the actor with the most film appearances
+- 📊 Show genre statistics (number of films per genre)
+
+---
+
+## 🚀 How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/NguyenChiThanhNice/PROJECT-3-DATA-ENGINEER/
+
+2. Create a virtual environment
+python -m venv env
+source env/bin/activate  # on Linux/Mac
+env\Scripts\activate     # on Windows
+
+3. Install dependencies
+pip install pandas
+✅ tkinter is usually included with Python by default.
+
+4. Launch the application
+python3 NGUYEN_Chi_Thanh_LV1_Project_03.py
+🗂️ Project Structure
+File	Description
+NGUYEN_Chi_Thanh_LV1_Project_03.py	GUI + Data processing with Pandas
+tmdb-movies.csv	Source dataset
+README.md	Project documentation
+
+💡 Possible Enhancements
+Add visualizations with Matplotlib or Seaborn
+
+Export .xlsx or .log reports
+
+Add advanced filters (year, genre, rating...)
+
+👤 Author
+Chi Thanh NGUYEN
+Data Engineering Student
+📧 Contact: ncthanh.agro@gmail.com / Tel. (+33)7 52 62 97 03
